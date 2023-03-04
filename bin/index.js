@@ -5,7 +5,7 @@ import { exit } from "process";
 console.log(chalk.green("Wellcome to the ATM Machine"));
 let userId = "masood";
 let userPin = 1234;
-let accountBalance = 100000;
+let accountBalance = Math.random() * 100000;
 start();
 async function start() {
     console.log("Enter your Credentials to Login : ");

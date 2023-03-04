@@ -12,7 +12,7 @@ console.log(chalk.green("Wellcome to the ATM Machine"))
 
 let userId:string = "masood"
 let userPin:number = 1234
-let accountBalance:number = 100000
+let accountBalance:number = Math.random() * 100000
 
 
 
